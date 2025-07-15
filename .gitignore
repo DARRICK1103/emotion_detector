@@ -1,0 +1,64 @@
+# ======================
+# Global
+# ======================
+.DS_Store
+Thumbs.db
+.env
+*.env.*
+*.log
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# ======================
+# Python Backend
+# ======================
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.vscode/
+backend/.idea/
+backend/*.sqlite3
+
+# Optional: Ignore FastAPI-generated OpenAPI docs cache
+backend/openapi.json
+
+# ======================
+# React Frontend
+# ======================
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/.next/
+frontend/.turbo/
+frontend/.vite/
+frontend/.cache/
+frontend/dist/
+frontend/.eslintcache
+frontend/.vscode/
+frontend/.idea/
+frontend/coverage/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ======================
+# System/IDE
+# ======================
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+*.rej
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+*.iml
